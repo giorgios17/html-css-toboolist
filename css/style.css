@@ -1,4 +1,51 @@
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    margin: auto;
 }
+
+header{
+    height: 100px;
+    line-height: 100px;
+    margin-left: 30px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline;
+    vertical-align: middle;
+}
+
+main{
+    /* background-color: rgb(246,248,249; */
+ height: 1200px;
+    background-color: chartreuse;
+}
+
+.container{
+    padding: 100px 270px 10px;
+}
+
+.buttons-container{
+    height: 50px;
+    background-color: white;
+    padding-top: 18px;
+    padding-left:35px;
+}
+
+.button-left{
+    background-color: rgb(71,173,241);
+    border-radius: 3px;
+    border-color: rgb(71,173,241);
+    color: white;
+    }
+
+    .button-right{
+        background-color: white;
+    border-radius: 3px;
+    border-color: rgb(200,206,211);
+    color: rgb(200,206,211);
+    }
