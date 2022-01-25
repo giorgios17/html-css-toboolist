@@ -20,9 +20,8 @@ h1{
 }
 
 main{
-    /* background-color: rgb(246,248,249; */
- height: 1200px;
-    background-color: chartreuse;
+    background-color: rgb(246,248,249);
+    height: 1000px;
 }
 
 .container{
@@ -34,18 +33,87 @@ main{
     background-color: white;
     padding-top: 18px;
     padding-left:35px;
+    margin-bottom: 2px;
 }
-
 .button-left{
     background-color: rgb(71,173,241);
     border-radius: 3px;
     border-color: rgb(71,173,241);
     color: white;
-    }
+}
 
-    .button-right{
-        background-color: white;
+.button-right{
+    background-color: white;
     border-radius: 3px;
     border-color: rgb(200,206,211);
     color: rgb(200,206,211);
-    }
+}
+
+.list-container{
+        height: 800px;
+        background-color: white;
+        padding-left: 40px;
+        padding-top: 10px;
+
+}
+
+p{
+    font-size: 22px;
+}
+
+ul{
+        list-style-type: none;
+        padding: 0;
+}
+
+.symbol{
+        border: 1px solid;
+        border-radius: 50%;
+        
+}
+
+.categorie{
+        font-weight: bold;
+      margin-top: 30px;
+}
+
+li{
+        margin-top: 10px;
+        margin-bottom: 20px;
+}
+
+.done{
+        color: rgb(147,214,199);
+}
+
+.red{
+        color: rgb(235,92,86);
+}
+
+.etichetta{
+        background-color: rgb(69,171,234);
+        color: white;
+        border-radius: 18px;
+        padding: 5px 10px;
+        font-size: 10px;
+}
+
+.goals{
+    background-color: rgb(156,114,228);
+}
+
+.recruiting{
+    background-color: rgb(100,192,169);
+}
+
+.mobile{
+    background-color: rgb(242,158,51);
+}
+
+.website{
+    background-color: rgb(216,99,161);
+}
+
+.sales{
+    background-color: rgb(176,201,38);
+}
